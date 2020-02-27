@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Label } from './styles';
 
-export default function BalancePanelChart() {
+const BalancePanelChart = () => {
     return (
         <Container>
-            <Label>BalancePanelChart</Label>
+            <Label>.</Label>
         </Container>
     );
-}
+};
+
+export default BalancePanelChart;

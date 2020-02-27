@@ -1,20 +1,19 @@
 import React from 'react';
 import { FlatList, Text } from 'react-native';
-import { Container, TitlePrincipal } from './styles';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { Container } from './styles';
 
-export default function EntrySummaryList() {
+export default function EntrySummaryList({ entriesGrouped }) {
     return (
         <Container>
-            <TitlePrincipal> Categoria </TitlePrincipal>
             <FlatList
-                data={[
-                    { key: 'Alimentação: R$200' },
-                    { key: 'Combustivel: R$12' },
-                    { key: 'Aluguel: R$120' },
-                    { key: 'Lazer: R$250' },
-                    { key: 'Outros: R$1200' },
-                ]}
-                renderItem={({ item }) => <Text>{item.key}</Text>}
+                data={entriesGrouped}
+                renderItem={({ item }) => (
+                    <Text>
+                        <Icon name={item.icon} size={17} color={item.color} />
+                        {item.description} - {item.amount}
+                    </Text>
+                )}
             />
         </Container>
     );

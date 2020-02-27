@@ -31,6 +31,39 @@ module.exports = {
               extensions: ['.jsx', '.js']
           }
       ],
-      'import/prefer-default-export': 'off'
+      'import/prefer-default-export': 'off',
+      'react/prop-types': ['error',
+      { 'ignore': [
+      'navigation',
+      'currenctBalance',
+      'entries',
+      'route',
+      'require',
+      'newEntry',
+      'onNewEntryPress',
+      'onNavigattionMain',
+      'children',
+      'headerTitle',
+      'footerTitle',
+      'details',
+      'entry',
+      'isFirstItem',
+      'isLastItem',
+      'onPress',
+      'value',
+      'days',
+      'data',
+      'onPressActionButton',
+      'entriesGrouped'] }],
+
+      'no-unused-expressions': [
+      'error',
+      {
+        allowShortCircuit: true,
+        allowTernary: true,
+       // allowTaggedTemplates: true,
+      }
+    ],
+    'jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
   },
 };

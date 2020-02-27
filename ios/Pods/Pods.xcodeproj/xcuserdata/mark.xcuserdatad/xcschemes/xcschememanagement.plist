@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BVLinearGradient.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DoubleConversion.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -20,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Folly.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GCDWebServer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -54,7 +64,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RNCMaskedView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RNGestureHandler.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNReanimated.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNSVG.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNScreens.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -149,6 +179,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RealmJS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Yoga.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -160,6 +195,11 @@
 			<false/>
 		</dict>
 		<key>glog.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>react-native-safe-area-context.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

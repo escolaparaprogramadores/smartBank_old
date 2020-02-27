@@ -5,8 +5,8 @@ export const Container = styled.View`
     /* flex: 1; */
 `;
 export const Label = styled.Text`
-    font-size: 14;
+    font-size: 14px;
 `;
 export const Value = styled.Text`
-    font-size: 22;
+    font-size: 22px;
 `;

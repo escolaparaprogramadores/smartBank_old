@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Label, Value } from './styles';
+import { Container, Title, Description } from './styles';
 
-export default function BalancePanelLabel() {
+export default function BalancePanelLabel({ currenctBalance }) {
     return (
         <Container>
-            <Label> Saldo atual </Label>
-            <Value> R$2.102,45 </Value>
+            <Title> Status atual </Title>
+            <Description> INSTABILIDADE </Description>
         </Container>
     );
 }

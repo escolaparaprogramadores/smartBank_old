@@ -1,14 +1,29 @@
 import React from 'react';
+import { TouchableOpacity } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Container, Button } from './styles';
-import BalancePanelChart from './BalancePanelChart/index';
-import BalancePanelLabel from './BalancePanelLabel/index';
+import { HeadBackground } from '../Core/Backgrounds';
+import BalancePanelChart from './BalancePanelChart';
+import BalancePanelLabel from './BalancePanelLabel';
 
-export default function BalancePanel() {
+const BalancePanel = ({ onNewEntryPress }) => {
+    const currenctBalance = 'R$13.497,32';
+
     return (
-        <Container>
-            <BalancePanelLabel />
-            <BalancePanelChart />
-            <Button title="Adicionar" />
-        </Container>
+        <>
+            <HeadBackground>
+                <Container>
+                    <BalancePanelLabel currenctBalance={currenctBalance} />
+                    <BalancePanelChart />
+                </Container>
+            </HeadBackground>
+            <TouchableOpacity onPress={onNewEntryPress}>
+                <Button>
+                    <Icon name="replay" size={30} color="#FFF" />
+                </Button>
+            </TouchableOpacity>
+        </>
     );
-}
+};
+
+export default BalancePanel;
