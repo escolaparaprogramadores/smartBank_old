@@ -11,21 +11,19 @@ export const getEntries = async () => {
     return entries;
 };
 
-export const saveEntry = async (value, entry = {}) => {
+export const saveEntry = async entry => {
     const realm = await getRealm();
     let data = {};
-    const { amount } = value;
 
     try {
-        console.log('VALUEID', JSON.stringify(value.id));
-        console.log('ENTRYID', JSON.stringify(entry.id));
         realm.write(() => {
             data = {
-                id: value.id || entry.id || GuidGenerator(),
-                amount: amount || entry.amount,
+                id: entry.id || GuidGenerator(),
+                amount: entry.amount,
                 description: entry.description,
-                entryAt: value.entryAt || entry.entryAt,
+                entryAt: entry.entryAt,
                 isInit: false,
+                category: entry.category,
             };
 
             realm.create('Entry', data, true);

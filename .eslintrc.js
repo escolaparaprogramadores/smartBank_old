@@ -53,6 +53,13 @@ module.exports = {
       'value',
       'days',
       'data',
+      'onChangeValue',
+      'debit',
+      'showOthers',
+      'category',
+      'data_',
+      'onChangeCategory',
+      'currencyBalance',
       'onPressActionButton',
       'entriesGrouped'] }],
 

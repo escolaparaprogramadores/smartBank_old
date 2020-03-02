@@ -6,7 +6,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import Main from './pages/Main/index';
 import NewEntry from './pages/NewEntry/index';
 import Report from './pages/Report/index';
-import Header from './pages/NullBank';
+import Home from './pages/Home';
 import Calculadora from './pages/calculadora/Calculadora';
 import CampoMinado from './components/campoMinado/CampoMinado';
 
@@ -23,7 +23,7 @@ export default function Routes() {
             <Drawer.Screen name="Main" component={Main} />
             <Drawer.Screen name="NewEntry" component={NewEntry} />
             <Drawer.Screen name="Report" component={Report} />
-            <Drawer.Screen name="Smart Bank 1.0" component={Header} />
+            <Drawer.Screen name="Smart Bank 1.0" component={Home} />
             <Drawer.Screen name="Calculadora" component={Calculadora} />
             <Drawer.Screen name="Campo Minado" component={CampoMinado} />
         </Drawer.Navigator>

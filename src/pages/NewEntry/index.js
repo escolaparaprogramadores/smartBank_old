@@ -3,21 +3,33 @@ import { Button, View } from 'react-native';
 import { Container, Input } from './styles';
 import BalanceLabel from '../../components/BalanceLabel';
 import { saveEntry, deleteEntry } from '../../services/Entries';
+import NewEntryInput from './NewEntryInput/index';
+import NewEntryCategoryPicker from './NewEntryCategoryPicker';
 
 const NewEntry = ({ route, navigation }) => {
-    const currentBalance = 2065.35;
     const entry = route.params?.entry
         ? route.params.entry
         : {
               id: null,
               amount: 0,
+              category: { id: null, name: 'Selecione' },
               description: '',
-              entryAt: new Date(),
+              // entryAt: new Date(),
           };
+
+    const [category, setCategory] = useState(entry.category);
+    const [debit, setDebit] = useState(entry.amount <= 0);
     const [amount, setAmount] = useState(`${entry.amount}`);
+    const [entryAt, setEntryAt] = useState(
+        entry.entryAt ? new Date(entry.entryAt) : new Date()
+    );
 
     const isValid = () => {
-        return amount > 0;
+        if (parseFloat(amount) !== 0) {
+            return true;
+        }
+
+        return false;
     };
 
     const onClose = () => {
@@ -26,10 +38,13 @@ const NewEntry = ({ route, navigation }) => {
 
     const onSave = () => {
         const data = {
+            id: entry.id,
             amount: parseFloat(amount),
+            category : category,
+            entryAt: entryAt,
         };
         console.log('NewEntry :: save ', data);
-        saveEntry(data, entry);
+        saveEntry(data);
         onClose();
     };
 
@@ -40,10 +55,18 @@ const NewEntry = ({ route, navigation }) => {
 
     return (
         <Container>
-            <BalanceLabel currentBalance={currentBalance} />
+            <BalanceLabel />
             <View>
-                <Input onChangeText={text => setAmount(text)} value={amount} />
-                <Input />
+                <NewEntryInput
+                    value={amount}
+                    onChangeValue={setAmount}
+                    onChangeDebit={setDebit}
+                />
+                <NewEntryCategoryPicker
+                    debit={debit}
+                    category={category}
+                    onChangeCategory={setCategory}
+                />
                 <Button title="GPS" />
                 <Button title="Camera" />
             </View>

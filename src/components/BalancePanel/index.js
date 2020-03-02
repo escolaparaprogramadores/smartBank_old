@@ -1,25 +1,25 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import { useNavigation } from '@react-navigation/native';
 import { Container, Button } from './styles';
-import { HeadBackground } from '../Core/Backgrounds';
 import BalancePanelChart from './BalancePanelChart';
 import BalancePanelLabel from './BalancePanelLabel';
 
-const BalancePanel = ({ onNewEntryPress }) => {
-    const currenctBalance = 'R$13.497,32';
+const BalancePanel = () => {
+    const currencyBalance = 197032;
+    const navigation = useNavigation();
 
     return (
         <>
-            <HeadBackground>
-                <Container>
-                    <BalancePanelLabel currenctBalance={currenctBalance} />
-                    <BalancePanelChart />
-                </Container>
-            </HeadBackground>
-            <TouchableOpacity onPress={onNewEntryPress}>
+            <Container>
+                <BalancePanelLabel currencyBalance={currencyBalance} />
+                <BalancePanelChart />
+            </Container>
+
+            <TouchableOpacity onPress={() => navigation.navigate('NewEntry')}>
                 <Button>
-                    <Icon name="replay" size={30} color="#FFF" />
+                    <Icon name="add" size={30} color="#FFF" />
                 </Button>
             </TouchableOpacity>
         </>

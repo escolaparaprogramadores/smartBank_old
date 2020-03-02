@@ -1,4 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 export const GuidGenerator = () => {
-    const uuid = require('react-native-uuid');
-    return uuid.v1();
+    return uuidv4();
 };

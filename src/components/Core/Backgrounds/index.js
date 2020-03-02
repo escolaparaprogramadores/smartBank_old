@@ -13,4 +13,5 @@ export const HeadBackground = styled(LinearGradient).attrs({
     colors: [Color.violet, Color.blue],
 })`
     flex: 1;
+    margin-bottom: -20px;
 `;

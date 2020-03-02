@@ -1,20 +1,26 @@
 import React from 'react';
-import { FlatList, Text } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import { FlatList, StyleSheet } from 'react-native';
+import EntrySummaryListItem from './EntrySummaryListItem';
 import { Container } from './styles';
 
-export default function EntrySummaryList({ entriesGrouped }) {
+const EntrySummaryList = ({ data }) => {
     return (
         <Container>
             <FlatList
-                data={entriesGrouped}
-                renderItem={({ item }) => (
-                    <Text>
-                        <Icon name={item.icon} size={17} color={item.color} />
-                        {item.description} - {item.amount}
-                    </Text>
-                )}
+                style={styles.container}
+                data={data}
+                keyExtractor={item => item.category.id}
+                renderItem={({ item }) => <EntrySummaryListItem entry={item} />}
             />
         </Container>
     );
-}
+};
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        flexDirection: 'row',
+    },
+});
+
+export default EntrySummaryList;

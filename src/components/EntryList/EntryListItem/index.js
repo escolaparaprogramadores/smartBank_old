@@ -14,15 +14,16 @@ import {
     IconPlace,
 } from './styles';
 import Colors from '../../Core/Styles/Colors';
-import Currency from '../../Core/Currency';
 import moment from '../../../vendors/moment';
+import Currency from '../../Core/Currency';
 
 const EntryListItem = ({ entry, isFirstItem, isLastItem, onPress }) => {
     const bulletLineY = isFirstItem ? 25 : 0;
     const bulletLineHeight = isLastItem ? 25 : 50;
     const showBulletLine = !(isFirstItem && isLastItem);
-    const bulletColor = entry.category?.color || Colors.green;
+    const bulletColor = entry.category?.color || Colors.white;
     const bulletColorStroke = bulletColor;
+
     return (
         <TouchableOpacity
             onPress={() => {
@@ -53,24 +54,26 @@ const EntryListItem = ({ entry, isFirstItem, isLastItem, onPress }) => {
                     </Svg>
                 </Bullet>
                 <Description>
-                    <DescriptionText>Error: Exception</DescriptionText>
+                    <DescriptionText>{entry.category.name}</DescriptionText>
                     <DescriptionFooter>
                         <IconAccessTime name="access-time" />
                         <DescriptionTextFooter>
                             {moment(entry.entryAt).calendar()}
                         </DescriptionTextFooter>
                         {!entry.address && (
-                            <>
+                            <Container>
                                 <IconPlace name="place" />
                                 <DescriptionTextFooter>
                                     Botafogo - RJ
                                 </DescriptionTextFooter>
-                            </>
+                            </Container>
                         )}
                     </DescriptionFooter>
                 </Description>
                 <Value>
-                    <ValueText>{entry.amount}</ValueText>
+                    <ValueText>
+                        <Currency value={entry.amount} />
+                    </ValueText>
                 </Value>
             </Container>
         </TouchableOpacity>

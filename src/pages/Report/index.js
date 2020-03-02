@@ -4,9 +4,10 @@ import { Container } from './styles';
 import BalanceLabel from '../../components/BalanceLabel';
 import EntrySummary from '../../components/EntrySummary';
 import EntryList from '../../components/EntryList';
+import { Background } from '../../components/Core/Backgrounds';
 
 export default function Report() {
-    const currenctBalance = '2.065.39';
+
     const entries = [
         { key: '1', description: 'paradaria Asa Branca', amount: '10' },
         { key: '2', description: 'Supermercado Isadora', amount: '190' },
@@ -20,20 +21,22 @@ export default function Report() {
         { key: '5', description: 'Outros', amount: '1456' },
     ];
     return (
-        <Container>
-            <BalanceLabel currenctBalance={currenctBalance} />
-            <Picker>
-                <Picker.Item label="Todas Categorias" />
-            </Picker>
-            <Picker>
-                <Picker.Item label="Últimos 7 dias" />
-            </Picker>
-            <EntrySummary entriesGrouped={entriesGrouped} />
-            <EntryList entries={entries} />
-            <View>
-                <Button title="Adicionar" />
-                <Button title="Cancelar" />
-            </View>
-        </Container>
+        <Background>
+            <Container>
+                <BalanceLabel />
+                <Picker>
+                    <Picker.Item label="Todas Categorias" />
+                </Picker>
+                <Picker>
+                    <Picker.Item label="Últimos 7 dias" />
+                </Picker>
+                <EntrySummary entriesGrouped={entriesGrouped} />
+                <EntryList entries={entries} />
+                <View>
+                    <Button title="Adicionar" />
+                    <Button title="Cancelar" />
+                </View>
+            </Container>
+        </Background>
     );
 }

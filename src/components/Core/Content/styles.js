@@ -3,16 +3,14 @@ import { RectButton } from 'react-native-gesture-handler';
 import Color from '../Styles/Colors';
 
 export const Container = styled.View`
-    flex: 2;
     background: ${Color.asphalt};
     border-style: solid;
     border-width: 1px;
     border-color: 'rgba(255, 255, 255, 0.2)';
-    justify-content: center;
     border-radius: 5px;
     margin: 5px;
-    elevation: 24;
     padding: 8px;
+    max-height: 440px;
 `;
 export const Content = styled.View`
     flex: 1;

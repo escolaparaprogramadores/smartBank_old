@@ -1,10 +1,13 @@
 import styled from 'styled-components/native';
+import LinearGradient from 'react-native-linear-gradient';
 import { RectButton } from 'react-native-gesture-handler';
 import Color from '../Core/Styles/Colors';
 
-export const Container = styled.View`
-    flex: 1;
-    justify-content: center;
+
+export const Container = styled(LinearGradient).attrs({
+    colors: [Color.violet, Color.blue],
+})`
+    margin-bottom: -21px;
 `;
 
 export const Title = styled.Text`
