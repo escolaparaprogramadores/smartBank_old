@@ -1,4 +1,5 @@
 import React from 'react';
+import { ScrollView } from 'react-native';
 import { Container } from './styles';
 import BalancePanel from '../../components/BalancePanel';
 import EntrySummary from '../../components/EntrySummary';
@@ -11,7 +12,9 @@ export default function Main() {
             <Container>
                 <BalancePanel />
                 <EntrySummary />
-                <EntryList />
+                <ScrollView>
+                    <EntryList />
+                </ScrollView>
             </Container>
         </Background>
     );

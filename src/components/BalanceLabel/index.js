@@ -1,15 +1,16 @@
 import React from 'react';
 import { BackgroundGradient, Container, Description, Title } from './styles';
 import Currency from '../Core/Currency';
+import useBalance from '../../hooks/useBalance';
 
 const BalanceLabel = () => {
-    const currentBalance = 2065.35;
+    const [balance] = useBalance();
     return (
         <Container>
             <Title>Saldo Atual</Title>
             <BackgroundGradient>
                 <Description>
-                    <Currency value={currentBalance} />
+                    <Currency value={balance} />
                 </Description>
             </BackgroundGradient>
         </Container>

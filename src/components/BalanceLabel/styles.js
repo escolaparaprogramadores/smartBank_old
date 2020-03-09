@@ -4,6 +4,7 @@ import Colors from '../Core/Styles/Colors';
 
 export const Container = styled.View`
     align-items: center;
+    padding: 20px;
     /* flex: 1; */
 `;
 

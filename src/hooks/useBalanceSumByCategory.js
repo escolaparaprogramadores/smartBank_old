@@ -8,7 +8,7 @@ const useBalanceSumByCategory = (days = 7) => {
     useFocusEffect(
         useCallback(() => {
             const loadBalanceSumByCategory = async () => {
-                const data = await getBalanceSumByCategory();
+                const data = await getBalanceSumByCategory(days);
                 setBalanceSum([...data]);
             };
             loadBalanceSumByCategory();

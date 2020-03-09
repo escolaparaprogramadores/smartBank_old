@@ -14,6 +14,8 @@ import java.util.ArrayList;
 import com.smartbank.BuildConfig;
 import com.smartbank.R;
 
+// @react-native-community/geolocation
+import com.reactnativecommunity.geolocation.GeolocationPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-linear-gradient
@@ -75,6 +77,7 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new GeolocationPackage(),
       new RNGestureHandlerPackage(),
       new LinearGradientPackage(),
       new ReanimatedPackage(),

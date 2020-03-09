@@ -101,13 +101,3 @@ export const getBalanceSumByCategory = async (days, showOthers = true) => {
     return entries;
 };
 
-// Salario 1000 - 19/11
-// Aluguel -900 - 19/11
-// Compras -10 -  21/11
-// Compras -20 -  22/11
-
-// [
-//   {category: Salário, amount: 1000}
-//   {category: Aluguel, amount: -900}
-//   {category: Compras, amount: -30}
-// ]

@@ -5,15 +5,17 @@ import { useNavigation } from '@react-navigation/native';
 import { Container, Button } from './styles';
 import BalancePanelChart from './BalancePanelChart';
 import BalancePanelLabel from './BalancePanelLabel';
+import useBalance from '../../hooks/useBalance';
 
 const BalancePanel = () => {
-    const currencyBalance = 197032;
+    const [balance] = useBalance();
+
     const navigation = useNavigation();
 
     return (
         <>
             <Container>
-                <BalancePanelLabel currencyBalance={currencyBalance} />
+                <BalancePanelLabel currencyBalance={balance} />
                 <BalancePanelChart />
             </Container>
 

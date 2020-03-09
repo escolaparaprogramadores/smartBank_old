@@ -1,10 +1,9 @@
 import styled from 'styled-components/native';
 import { RectButton } from 'react-native-gesture-handler';
-import Color from '../../Core/Styles/Colors';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import Color from '../../Core/Styles/Colors';
 
 export const Container = styled.View`
-    flex: 1;
     flex-direction: row;
 `;
 export const Content = styled.View`
@@ -37,9 +36,7 @@ export const CardContent = styled.View`
     justify-content: center;
 `;
 
-export const Title = styled.Text`
-
-`;
+export const Title = styled.Text``;
 
 export const Value = styled.View`
     justify-content: center;
@@ -50,14 +47,11 @@ export const ValueText = styled.Text`
     color: ${Color.white};
 `;
 
-export const Bullet = styled.View`
-
-`;
+export const Bullet = styled.View``;
 
 export const Description = styled.View`
     flex: 1;
     justify-content: center;
-
 `;
 export const DescriptionFooter = styled.View`
     flex-direction: row;
@@ -71,7 +65,6 @@ export const DescriptionTextFooter = styled.Text`
     font-size: 9px;
     color: ${Color.metal};
 `;
-
 
 export const CardFooter = styled.View`
     flex-direction: row;
@@ -118,4 +111,3 @@ export const IconPlace = styled(Icon)`
     font-size: 12px;
     color: ${Color.metal};
 `;
-

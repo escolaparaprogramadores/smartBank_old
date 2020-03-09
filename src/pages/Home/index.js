@@ -14,8 +14,11 @@ import {
 } from './styles';
 import Tabs from './Tabs/tabs';
 import { Background } from '../../components/Core/Backgrounds';
+import useBalance from '../../hooks/useBalance';
+import Currency from '../../components/Core/Currency';
 
 export default function Main({ navigation }) {
+    const [balance] = useBalance();
     return (
         <Background>
             <Container>
@@ -32,7 +35,9 @@ export default function Main({ navigation }) {
                         </CardHeader>
                         <CardContent>
                             <Title>Saldo disponível</Title>
-                            <Description>R$ 197.611,65</Description>
+                            <Description>
+                                <Currency value={balance} />
+                            </Description>
                         </CardContent>
                         <CardFooter>
                             <Annotation>
