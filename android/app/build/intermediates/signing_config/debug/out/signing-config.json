@@ -1,1 +1,1 @@
-{"mName":"debug","mStoreFile":"/Users/mark/Projetos/smartBank/android/app/debug.keystore","mStorePassword":"android","mKeyAlias":"androiddebugkey","mKeyPassword":"android","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+{"mName":"release","mStoreFile":"/Users/mark/Projetos/smartBank/android/app/smartbank_patanga.keystore","mStorePassword":"minhaSenha@1","mKeyAlias":"smartbank_patanga","mKeyPassword":"minhaSenha@1","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}

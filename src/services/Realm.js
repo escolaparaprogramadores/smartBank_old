@@ -2,6 +2,7 @@ import Realm from 'realm';
 import CategorySchema from '../schemas/CategorySchema';
 import EntrySchema from '../schemas/EntrySchema';
 import { getDefaultCategories } from './Categories';
+import { cleanInitialized } from './Welcome';
 
 export const dropDB = realm => {
     console.log('dropDB :: dropping db...');
@@ -12,12 +13,12 @@ export const dropDB = realm => {
 
 export const initDB = realm => {
     const categoriesLength = realm.objects('Category').length;
-    console.log(`initDB :: categories length: ${categoriesLength}`);
+    // console.log(`initDB :: categories length: ${categoriesLength}`);
 
     if (categoriesLength === 0) {
         const categories = getDefaultCategories();
 
-        console.log('initDB :: initing db...');
+        // console.log('initDB :: initing db...');
 
         try {
             realm.write(() => {
@@ -33,7 +34,7 @@ export const initDB = realm => {
             });
         } catch (error) {}
     } else {
-        console.log('initDB :: categories already existing... Skypping.');
+        // console.log('initDB :: categories already existing... Skypping.');
     }
 };
 
@@ -42,9 +43,8 @@ export const getRealm = async () => {
         schema: [CategorySchema, EntrySchema],
         schemaVersion: 5,
     });
+     cleanInitialized();
     // dropDB();
     initDB(realm);
     return realm;
 };
-
-

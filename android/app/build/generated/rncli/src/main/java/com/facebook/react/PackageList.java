@@ -14,8 +14,12 @@ import java.util.ArrayList;
 import com.smartbank.BuildConfig;
 import com.smartbank.R;
 
+// @react-native-community/async-storage
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/geolocation
 import com.reactnativecommunity.geolocation.GeolocationPackage;
+// react-native-camera
+import org.reactnative.camera.RNCameraPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-linear-gradient
@@ -28,6 +32,8 @@ import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-svg
 import com.horcrux.svg.SvgPackage;
+// react-native-tts
+import net.no_mad.tts.TextToSpeechPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
 // realm
@@ -77,13 +83,16 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new AsyncStoragePackage(),
       new GeolocationPackage(),
+      new RNCameraPackage(),
       new RNGestureHandlerPackage(),
       new LinearGradientPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
       new SvgPackage(),
+      new TextToSpeechPackage(),
       new VectorIconsPackage(),
       new RealmReactPackage()
     ));

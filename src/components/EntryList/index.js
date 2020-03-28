@@ -1,24 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigation } from '@react-navigation/native';
+import React, { useEffect, useState, useCallback } from 'react';
+import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { FlatList } from 'react-native';
 import Content from '../Core/Content';
-import { getEntries } from '../../services/Entries';
 import EntryListItem from './EntryListItem';
+import useEntries from '../../hooks/useEntries';
+
 
 const EntryList = ({ days = 7, category }) => {
-    const [entries, setEntries] = useState([]);
+    const [entries] = useState([]);
     const navigation = useNavigation();
-
-    useEffect(() => {
-        console.log('EntryListItem :: useEffect', category);
-        async function loadEntries() {
-            const data = await getEntries(days, category);
-            setEntries(data);
-        }
-        loadEntries();
-
-    }, [days, category]);
-
+    const [data] = useEntries(days, category);
     return (
         <Content
             headerTitle="Últimos lançamentos"
@@ -29,18 +20,18 @@ const EntryList = ({ days = 7, category }) => {
             onPressActionButton={() => navigation.navigate('Report')}
         >
             <FlatList
-                data={entries}
+                data={data}
                 renderItem={({ item, index }) => (
                     <EntryListItem
                         entry={item}
                         isLastItem={index === entries.length - 1}
                         isFirstItem={index === 0}
                         onPress={entry => {
-                            const entryToJson = JSON.parse(
-                                JSON.stringify(entry)
-                            );
+                            // const entryToJson = JSON.parse(
+                            //     JSON.stringify(entry)
+                            // );
                             navigation.navigate('NewEntry', {
-                                entry: entryToJson,
+                                entry,
                             });
                         }}
                     />

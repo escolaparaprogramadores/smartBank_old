@@ -1,51 +1,49 @@
 import React, { useState, useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
-import { useNavigation, useRoute } from '@react-navigation/native';
 import { Container } from './styles';
 import BalanceLabel from '../../components/BalanceLabel';
-import { saveEntry, deleteEntry } from '../../services/Entries';
 import NewEntryInput from './NewEntryInput/index';
 import NewEntryCategoryPicker from './NewEntryCategoryPicker';
 import NewEntryDatePicker from './NewEntryDatePicker';
+import NewEntryCameraPicker from './NewEntryCameraPicker';
+import NewEntryAddressPicker from './NewEntryAddressPicker';
 import NewEntryDeleteAction from './NewEntryDeleteAction';
 import Colors from '../../components/Core/Styles/Colors';
 import ActionFooter, {
     ActionPrimaryButton,
     ActionSecondaryButton,
 } from '../../components/Core/ActionFooter';
+import useEntries from '../../hooks/useEntries';
 
-const NewEntry = () => {
-    const navigation = useNavigation();
-    const route = useRoute();
-    console.log('ROUTE ::', route);
-    const entry = route.params?.entry
-        ? route.params.entry
-        : {
-              id: null,
-              amount: 0,
-              category: { id: null, name: 'Selecione' },
-              description: '',
-              // entryAt: new Date(),
-          };
+const NewEntry = ({ navigation, route }) => {
+    const { entry } = route.params;
+    console.log('ENTRY :: entries ', JSON.stringify(entry));
 
-    const [category, setCategory] = useState(entry.category);
+    const [, saveEntry, deleteEntry] = useEntries();
+
     const [debit, setDebit] = useState(entry.amount <= 0);
     const [amount, setAmount] = useState(entry.amount);
+    const [category, setCategory] = useState(entry.category);
+    const [address, setAddress] = useState(entry.address);
+    const [photo, setPhoto] = useState(entry.photo);
+    const [latitude, setLatitude] = useState(entry.latitude);
+    const [longitude, setLongitude] = useState(entry.longitude);
     const [entryAt, setEntryAt] = useState(
         entry.entryAt ? new Date(entry.entryAt) : new Date()
     );
-
     useEffect(() => {
-        async function loadEntries() {
-             setCategory(entry.category);
-             setDebit(entry.amount <= 0);
+        const load = async () => {
+            setLongitude(entry.longitude);
+            setLatitude(entry.latitude);
+            setAddress(entry.address);
+            setPhoto(entry.photo);
+            setCategory(entry.category);
+            setDebit(entry.amount <= 0);
             setAmount(entry.amount);
-             setEntryAt(entry.entryAt ? new Date(entry.entryAt) : new Date());
-        }
-        loadEntries();
+            setEntryAt(entry.entryAt ? new Date(entry.entryAt) : new Date());
+        };
+        load();
     }, [entry]);
-
-    console.log('AMOUNT ::', amount);
 
     const isValid = () => {
         if (parseFloat(amount) !== 0) {
@@ -64,8 +62,13 @@ const NewEntry = () => {
             id: entry.id,
             amount: parseFloat(amount),
             category,
+            photo,
+            address,
+            latitude,
+            longitude,
             entryAt,
         };
+
         console.log('NewEntry :: save ', data);
         saveEntry(data);
         onClose();
@@ -92,6 +95,18 @@ const NewEntry = () => {
                 />
                 <View style={styles.formActionContainer}>
                     <NewEntryDatePicker value={entryAt} onChange={setEntryAt} />
+                    <NewEntryCameraPicker
+                        photo={photo}
+                        onChangePhoto={setPhoto}
+                    />
+                    <NewEntryAddressPicker
+                        address={address}
+                        onChange={({ latitude, longitude, address }) => {
+                            setLatitude(latitude);
+                            setLongitude(longitude);
+                            setAddress(address);
+                        }}
+                    />
                     <NewEntryDeleteAction onOkPress={onDelete} entry={entry} />
                 </View>
             </View>

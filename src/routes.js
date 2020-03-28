@@ -5,7 +5,9 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 // import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import Main from './pages/Main/index';
 import NewEntry from './pages/NewEntry/index';
+import Welcome from './pages/Welcome/index';
 import Report from './pages/Report/index';
+import Loading from './pages/Loading/index';
 import Home from './pages/Home';
 import Calculadora from './pages/calculadora/Calculadora';
 import CampoMinado from './components/campoMinado/CampoMinado';
@@ -18,8 +20,10 @@ export default function Routes() {
     return (
         <Drawer.Navigator
             screenOptions={{ headerShown: false }}
-            initialRouteName="Smart Bank 1.0"
+            initialRouteName="Loading"
         >
+            <Drawer.Screen name="Loading" component={Loading} />
+            <Drawer.Screen name="Welcome" component={Welcome} />
             <Drawer.Screen name="Main" component={Main} />
             <Drawer.Screen name="NewEntry" component={NewEntry} />
             <Drawer.Screen name="Report" component={Report} />
@@ -29,3 +33,4 @@ export default function Routes() {
         </Drawer.Navigator>
     );
 }
+

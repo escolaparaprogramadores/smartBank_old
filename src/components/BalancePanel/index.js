@@ -9,9 +9,7 @@ import useBalance from '../../hooks/useBalance';
 
 const BalancePanel = () => {
     const [balance] = useBalance();
-
     const navigation = useNavigation();
-
     return (
         <>
             <Container>
@@ -19,7 +17,23 @@ const BalancePanel = () => {
                 <BalancePanelChart />
             </Container>
 
-            <TouchableOpacity onPress={() => navigation.navigate('NewEntry')}>
+            <TouchableOpacity
+                onPress={() => {
+                    navigation.navigate('NewEntry', {
+                        entry: {
+                            id: null,
+                            amount: 0,
+                            category: { id: null, name: 'Selecione' },
+                            description: '',
+                            photo: null,
+                            address: null,
+                            latitude: null,
+                            longitude: null,
+                            entryAt: new Date(),
+                        },
+                    });
+                }}
+            >
                 <Button>
                     <Icon name="add" size={30} color="#FFF" />
                 </Button>

@@ -1,0 +1,360 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:react-native-community_async-storage] /Users/mark/Projetos/smartBank/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_geolocation] /Users/mark/Projetos/smartBank/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-gesture-handler] /Users/mark/Projetos/smartBank/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/mark/Projetos/smartBank/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/mark/Projetos/smartBank/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/mark/Projetos/smartBank/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /Users/mark/Projetos/smartBank/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-tts] /Users/mark/Projetos/smartBank/node_modules/react-native-tts/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/mark/Projetos/smartBank/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:realm] /Users/mark/Projetos/smartBank/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/mark/.gradle/caches/transforms-2/files-2.1/406d80230279cdd89e16e97f9c215706/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/582cf17b7eebd9e0a5c5f44862fb4837/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/fe1c4bda9aef1324b2bd8fcbb8d92152/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/7fda8550b13e3a55716a65d13abafb5a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/bddf5cbb90b9cbb2fb8467c9add6adeb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/b5cfb3bf751eae89dd6aec02df9e9373/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/93d4b6f446de90214ff268d503c32ae3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/6ca67957d259097f61dbf172a91b3cd3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/e059244b3f4371ed9055f9d3cf80c2fe/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f1ff246206b1df7f0f6c005dbc631eec/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/9a361511c16cc89f0443cf2fad75ecbe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/ea52ebeb856ff532868841022278149e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/mark/.gradle/caches/transforms-2/files-2.1/c178e3e7132c371f25d0c757ca4cd49d/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/mark/.gradle/caches/transforms-2/files-2.1/ad973c24d31ec19ef30c9dd7b4d5bb87/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/mark/Projetos/smartBank/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/adfb2a56464b90f22c070c4043c37e1a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/4b8071fffb240116302883eba2082ab2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/701899de02d937315dbb21dcbb72059e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/3e287ce54580c2223298dd42c0121891/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/399bba8b037217a37dc04399194d651f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/234979e2a43e38e45f3108887de200f1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/157b8caf87e74d0f7a3c7e26b08c15a7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/febba6df825536194ffa6a13eefd27e4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/84f6323ecf94683834ad0362a881bfde/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/911a77af7b1bc7d7b37d11b1b6767348/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/2271330ffd980187b442fcee0cb25a36/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/39b57ce101576cafd06f1b55a8f4f5b4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/058ed4d3e3fe03620e3a6703090f69ac/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f2bc4d447b61bb3c21c30392b8c93af4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/afc0fddecbe5d829a4a5bfcfdc5e68b4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/b7385db23bf391b22a7302ba60cdc035/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5e33e1d13ff8ab7ea55f49ba11a6ac66/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5939d50d889ceda648a7746cc4901671/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/274b123f07ce1fe30099888b55f2ffe7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f8fb607518b79ecc0615274758c0d17a/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/223bbe6d02311df41f62386b4cdd03b1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/0f8bde02a2db28a6c244434fe418957d/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/44108f4499ebec6c1d189f4f060f6a54/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/95614329d342dee11d680cc945d2a1d8/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/2a29c865486e45cbea667ba3547b8280/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/71b812e38d943fe30ef850acce55e4bb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/43b7b4ea9cc700e1ca260e722d40a954/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/517da098383b4b62008a86fdb695f9ec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/a610761c917ebdac950f51407e16a56b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/7b18e62c2786898553a2a6f080e80336/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/fa737a4250d15769a2912abf2a797553/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/3c0a782f5b878e5560fb7c5dab34ce32/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/17f66c9917adb94b7b2b8228ff02efbe/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f9b4c6fe70de73b2859b09cb93a5fc8c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/6164275174b3433a38554e07607dfe51/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/ca7c0720509855c8188cc1b3ea491b86/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/8a8899f859c763fa51baec3a891094bf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/7644b10c06327315875b4d0af2f460cf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/9fe5008d011635347b2f2a60816c7203/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/92aea117fa1c1d3e8ffeb650ad1c1a88/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5b60d33ff7250dbd0e6e366f435a70bd/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5acc38a51ecb92ed5501c2677ff26d64/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:2:3-26
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:6:5-65
+MERGED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:9:22-78
+application
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:11:5-28:19
+MERGED from [:realm] /Users/mark/Projetos/smartBank/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:realm] /Users/mark/Projetos/smartBank/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/mark/.gradle/caches/transforms-2/files-2.1/406d80230279cdd89e16e97f9c215706/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/mark/.gradle/caches/transforms-2/files-2.1/406d80230279cdd89e16e97f9c215706/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/582cf17b7eebd9e0a5c5f44862fb4837/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/582cf17b7eebd9e0a5c5f44862fb4837/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/7fda8550b13e3a55716a65d13abafb5a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/7fda8550b13e3a55716a65d13abafb5a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/bddf5cbb90b9cbb2fb8467c9add6adeb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/bddf5cbb90b9cbb2fb8467c9add6adeb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/b5cfb3bf751eae89dd6aec02df9e9373/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/b5cfb3bf751eae89dd6aec02df9e9373/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/6ca67957d259097f61dbf172a91b3cd3/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/6ca67957d259097f61dbf172a91b3cd3/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/e059244b3f4371ed9055f9d3cf80c2fe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/e059244b3f4371ed9055f9d3cf80c2fe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f1ff246206b1df7f0f6c005dbc631eec/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f1ff246206b1df7f0f6c005dbc631eec/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f8fb607518b79ecc0615274758c0d17a/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f8fb607518b79ecc0615274758c0d17a/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/0f8bde02a2db28a6c244434fe418957d/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/0f8bde02a2db28a6c244434fe418957d/AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5b60d33ff7250dbd0e6e366f435a70bd/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5b60d33ff7250dbd0e6e366f435a70bd/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f8fb607518b79ecc0615274758c0d17a/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:13:7-39
+	android:icon
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:14:7-41
+	android:allowBackup
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:15:7-34
+	android:theme
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:16:7-38
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:12:7-38
+activity#com.smartbank.MainActivity
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:17:7-26:18
+	android:label
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:19:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:21:9-51
+	android:configChanges
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:20:9-79
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:18:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:24:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:27:7-84
+	android:name
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml:27:17-81
+uses-sdk
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-community_async-storage] /Users/mark/Projetos/smartBank/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/mark/Projetos/smartBank/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /Users/mark/Projetos/smartBank/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /Users/mark/Projetos/smartBank/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/mark/Projetos/smartBank/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/mark/Projetos/smartBank/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/mark/Projetos/smartBank/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/mark/Projetos/smartBank/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/mark/Projetos/smartBank/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/mark/Projetos/smartBank/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/mark/Projetos/smartBank/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/mark/Projetos/smartBank/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /Users/mark/Projetos/smartBank/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/mark/Projetos/smartBank/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-tts] /Users/mark/Projetos/smartBank/node_modules/react-native-tts/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-tts] /Users/mark/Projetos/smartBank/node_modules/react-native-tts/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/mark/Projetos/smartBank/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/mark/Projetos/smartBank/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:realm] /Users/mark/Projetos/smartBank/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:realm] /Users/mark/Projetos/smartBank/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/mark/.gradle/caches/transforms-2/files-2.1/406d80230279cdd89e16e97f9c215706/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/mark/.gradle/caches/transforms-2/files-2.1/406d80230279cdd89e16e97f9c215706/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/582cf17b7eebd9e0a5c5f44862fb4837/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/582cf17b7eebd9e0a5c5f44862fb4837/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/fe1c4bda9aef1324b2bd8fcbb8d92152/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/fe1c4bda9aef1324b2bd8fcbb8d92152/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/7fda8550b13e3a55716a65d13abafb5a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/7fda8550b13e3a55716a65d13abafb5a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/bddf5cbb90b9cbb2fb8467c9add6adeb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/mark/.gradle/caches/transforms-2/files-2.1/bddf5cbb90b9cbb2fb8467c9add6adeb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/b5cfb3bf751eae89dd6aec02df9e9373/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/b5cfb3bf751eae89dd6aec02df9e9373/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/93d4b6f446de90214ff268d503c32ae3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/93d4b6f446de90214ff268d503c32ae3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/6ca67957d259097f61dbf172a91b3cd3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/6ca67957d259097f61dbf172a91b3cd3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/e059244b3f4371ed9055f9d3cf80c2fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/e059244b3f4371ed9055f9d3cf80c2fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f1ff246206b1df7f0f6c005dbc631eec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f1ff246206b1df7f0f6c005dbc631eec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/9a361511c16cc89f0443cf2fad75ecbe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/9a361511c16cc89f0443cf2fad75ecbe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/ea52ebeb856ff532868841022278149e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/ea52ebeb856ff532868841022278149e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/mark/.gradle/caches/transforms-2/files-2.1/c178e3e7132c371f25d0c757ca4cd49d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/mark/.gradle/caches/transforms-2/files-2.1/c178e3e7132c371f25d0c757ca4cd49d/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/mark/.gradle/caches/transforms-2/files-2.1/ad973c24d31ec19ef30c9dd7b4d5bb87/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/mark/.gradle/caches/transforms-2/files-2.1/ad973c24d31ec19ef30c9dd7b4d5bb87/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/mark/Projetos/smartBank/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/mark/Projetos/smartBank/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/adfb2a56464b90f22c070c4043c37e1a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/adfb2a56464b90f22c070c4043c37e1a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/4b8071fffb240116302883eba2082ab2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/4b8071fffb240116302883eba2082ab2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/701899de02d937315dbb21dcbb72059e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/701899de02d937315dbb21dcbb72059e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/3e287ce54580c2223298dd42c0121891/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/3e287ce54580c2223298dd42c0121891/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/399bba8b037217a37dc04399194d651f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/399bba8b037217a37dc04399194d651f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/234979e2a43e38e45f3108887de200f1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/234979e2a43e38e45f3108887de200f1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/157b8caf87e74d0f7a3c7e26b08c15a7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/157b8caf87e74d0f7a3c7e26b08c15a7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/febba6df825536194ffa6a13eefd27e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/febba6df825536194ffa6a13eefd27e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/84f6323ecf94683834ad0362a881bfde/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/84f6323ecf94683834ad0362a881bfde/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/911a77af7b1bc7d7b37d11b1b6767348/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/911a77af7b1bc7d7b37d11b1b6767348/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/2271330ffd980187b442fcee0cb25a36/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/2271330ffd980187b442fcee0cb25a36/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/39b57ce101576cafd06f1b55a8f4f5b4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/39b57ce101576cafd06f1b55a8f4f5b4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/058ed4d3e3fe03620e3a6703090f69ac/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/058ed4d3e3fe03620e3a6703090f69ac/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f2bc4d447b61bb3c21c30392b8c93af4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f2bc4d447b61bb3c21c30392b8c93af4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/afc0fddecbe5d829a4a5bfcfdc5e68b4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/afc0fddecbe5d829a4a5bfcfdc5e68b4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/b7385db23bf391b22a7302ba60cdc035/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/b7385db23bf391b22a7302ba60cdc035/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5e33e1d13ff8ab7ea55f49ba11a6ac66/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5e33e1d13ff8ab7ea55f49ba11a6ac66/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5939d50d889ceda648a7746cc4901671/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5939d50d889ceda648a7746cc4901671/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/274b123f07ce1fe30099888b55f2ffe7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/274b123f07ce1fe30099888b55f2ffe7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f8fb607518b79ecc0615274758c0d17a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f8fb607518b79ecc0615274758c0d17a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/223bbe6d02311df41f62386b4cdd03b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/223bbe6d02311df41f62386b4cdd03b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/0f8bde02a2db28a6c244434fe418957d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/0f8bde02a2db28a6c244434fe418957d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/44108f4499ebec6c1d189f4f060f6a54/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/44108f4499ebec6c1d189f4f060f6a54/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/95614329d342dee11d680cc945d2a1d8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/95614329d342dee11d680cc945d2a1d8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/2a29c865486e45cbea667ba3547b8280/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/2a29c865486e45cbea667ba3547b8280/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/71b812e38d943fe30ef850acce55e4bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/71b812e38d943fe30ef850acce55e4bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/43b7b4ea9cc700e1ca260e722d40a954/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/43b7b4ea9cc700e1ca260e722d40a954/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/517da098383b4b62008a86fdb695f9ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/517da098383b4b62008a86fdb695f9ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/a610761c917ebdac950f51407e16a56b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/a610761c917ebdac950f51407e16a56b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/7b18e62c2786898553a2a6f080e80336/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/7b18e62c2786898553a2a6f080e80336/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/fa737a4250d15769a2912abf2a797553/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/fa737a4250d15769a2912abf2a797553/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/3c0a782f5b878e5560fb7c5dab34ce32/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/3c0a782f5b878e5560fb7c5dab34ce32/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/17f66c9917adb94b7b2b8228ff02efbe/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/17f66c9917adb94b7b2b8228ff02efbe/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f9b4c6fe70de73b2859b09cb93a5fc8c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f9b4c6fe70de73b2859b09cb93a5fc8c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/6164275174b3433a38554e07607dfe51/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/6164275174b3433a38554e07607dfe51/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/ca7c0720509855c8188cc1b3ea491b86/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/ca7c0720509855c8188cc1b3ea491b86/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/8a8899f859c763fa51baec3a891094bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/8a8899f859c763fa51baec3a891094bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/7644b10c06327315875b4d0af2f460cf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/7644b10c06327315875b4d0af2f460cf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/9fe5008d011635347b2f2a60816c7203/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/9fe5008d011635347b2f2a60816c7203/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/92aea117fa1c1d3e8ffeb650ad1c1a88/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/92aea117fa1c1d3e8ffeb650ad1c1a88/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5b60d33ff7250dbd0e6e366f435a70bd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5b60d33ff7250dbd0e6e366f435a70bd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5acc38a51ecb92ed5501c2677ff26d64/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/5acc38a51ecb92ed5501c2677ff26d64/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mark/Projetos/smartBank/android/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/mark/Projetos/smartBank/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:15:9-57
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/mark/.gradle/caches/transforms-2/files-2.1/1773d01c5fceae2f453b8ba393dea55e/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f1ff246206b1df7f0f6c005dbc631eec/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f1ff246206b1df7f0f6c005dbc631eec/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/mark/.gradle/caches/transforms-2/files-2.1/f1ff246206b1df7f0f6c005dbc631eec/AndroidManifest.xml:24:13-58

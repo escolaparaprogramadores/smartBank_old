@@ -9,31 +9,11 @@ import {
 } from 'react-native';
 
 import ActionFooter, { ActionPrimaryButton } from '../Core/ActionFooter';
-
-import {
-    getDebitCategories,
-    getCreditCategories,
-    getAllCategories,
-} from '../../services/Categories';
-
 import Colors from '../Core/Styles/Colors';
+import useCategories from '../../hooks/useCategories';
 
 const CategoryModal = ({ categoryType, isVisible, onConfirm, onCancel }) => {
-    const [debitCategories, setDebitCategories] = useState([]);
-    const [creditCategories, setCreditCategories] = useState([]);
-    const [allCategories, setAllCategories] = useState([]);
-
-    useEffect(() => {
-        async function loadCategories() {
-            setDebitCategories(await getDebitCategories());
-            setCreditCategories(await getCreditCategories());
-            setAllCategories(await getAllCategories());
-        }
-
-        loadCategories();
-
-        console.log('NewEntryCategoryPicker :: useEffect');
-    }, []);
+    const [debitCategories, creditCategories, allCategories] = useCategories();
 
     return (
         <Modal animationType="slide" transparent={false} visible={isVisible}>

@@ -24,12 +24,6 @@ module.exports = {
     'prettier'
   ],
   rules: {
-      'no-use-before-define': [
-          'error',
-          {
-              "variables": false
-          }
-        ],
       'prettier/prettier': 'error',
       'react/jsx-filename-extension':[
           'warn',
@@ -44,6 +38,10 @@ module.exports = {
       'currenctBalance',
       'entries',
       'route',
+      'onDelete',
+      'onClose',
+      'photo',
+      'onChangePhoto',
       'require',
       'newEntry',
       'onNewEntryPress',
@@ -53,26 +51,20 @@ module.exports = {
       'footerTitle',
       'details',
       'entry',
-      'categoryType',
       'isFirstItem',
       'isLastItem',
       'onPress',
       'value',
       'days',
-      'data',
-      'onChangeValue',
-      'debit',
-      'showOthers',
-      'category',
-      'data_',
-      'title',
-      'isVisible',
-      'onConfirm',
       'onCancel',
-      'onOkPress',
+      'data',
+      'categoryType',
+      'isVisible',
+      'category',
+      'onConfirm',
+      'route',
       'onChange',
-      'onChangeCategory',
-      'currencyBalance',
+      'address',
       'onPressActionButton',
       'entriesGrouped'] }],
 
@@ -84,7 +76,6 @@ module.exports = {
        // allowTaggedTemplates: true,
       }
     ],
-    'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
+    'jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
   },
-
 };

@@ -60,11 +60,11 @@ const EntryListItem = ({ entry, isFirstItem, isLastItem, onPress }) => {
                         <DescriptionTextFooter>
                             {moment(entry.entryAt).calendar()}
                         </DescriptionTextFooter>
-                        {!entry.address && (
+                        {entry.address && (
                             <Container>
                                 <IconPlace name="place" />
                                 <DescriptionTextFooter>
-                                    Botafogo - RJ
+                                    {entry.address}
                                 </DescriptionTextFooter>
                             </Container>
                         )}

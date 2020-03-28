@@ -37,9 +37,13 @@ export const saveEntry = async entry => {
                 id: entry.id || GuidGenerator(),
                 amount: entry.amount,
                 description: entry.description,
-                entryAt: entry.entryAt,
+                entryAt: entry.entryAt || new Date(),
                 isInit: false,
                 category: entry.category,
+                address: entry.address,
+                photo: entry.photo,
+                latitude: entry.latitude,
+                longitude: entry.longitude,
             };
 
             realm.create('Entry', data, true);

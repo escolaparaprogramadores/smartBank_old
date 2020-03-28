@@ -1,5 +1,7 @@
 import React from 'react';
+import { StatusBar } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import Colors from '../../components/Core/Styles/Colors';
 import Header from './Header/index';
 import {
     Container,
@@ -22,6 +24,10 @@ export default function Main({ navigation }) {
     return (
         <Background>
             <Container>
+                <StatusBar
+                    barStyle="light-content"
+                    backgroundColor={Colors.background}
+                />
                 <Header />
                 <Content>
                     <Card>
