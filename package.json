@@ -20,7 +20,7 @@
     "@react-navigation/stack": "^5.0.8",
     "apisauce": "^1.1.1",
     "formik": "^1.5.8",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "16.9.0",
